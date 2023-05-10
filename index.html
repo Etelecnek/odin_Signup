@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UFT-8">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jsfile.js" defer></script>
+    </head>
+    <body>
+        <div class="background">
+            <div class="container">
+                <h2>This is not a real online service! 
+                    You know you need something like this in your life to help you realize your deepest dreams. 
+                </h2>
+                <h2>
+                    Sign up now to get started.
+                </h2>
+                <h2>
+                    You know you want to.
+                </h2>
+                <form action="">                    
+                    <div class="input_container">
+                        <div>
+                            <h2>Lets do this!</h2>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <label for="first_name">First Name</label>
+                                <input type="text" name="first_name" id="first_name">
+                            </div>
+                            <div class="column">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" name="last_name" id="last_name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email">
+                            </div>
+                            <div class="column">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="text" name="phone_number" id="phone_number">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" onkeyup="validate()">
+                            </div>
+                            <div class="column">
+                                <label for="confirm_password">Confirm Password</label>
+                                <input type="password" name="confirm_password" id="confirm_password" onkeyup="validate()">
+                            </div>
+                        </div>
+                        <div><span id='message'></span></div>
+                    </div>
+                    <button onclick="createAccount()">Create Account</button>
+                </form>
+            </div>
+        </div>    
+    </body>
+</html>
