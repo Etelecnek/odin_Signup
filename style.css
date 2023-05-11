@@ -1,6 +1,21 @@
+.background {
+    background-color: aqua;
+    background-image: url("");
+}
+
+.container {
+    padding-left: 50px;
+    width: 65%;
+    background-color: aliceblue;
+}
+
+.input_container {
+    background-color: antiquewhite;
+}
+
 .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
 
 .column {
@@ -38,6 +53,6 @@ input {
     border-radius: 5px;
 }
 
-input:invalid {
+.confirm:invalid {
     border-color: red;
 }
