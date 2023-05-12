@@ -9,15 +9,17 @@
     <body>
         <div class="background">
             <div class="container">
-                <h2>This is not a real online service! 
-                    You know you need something like this in your life to help you realize your deepest dreams. 
-                </h2>
-                <h2 >
-                    Sign up now to get started.
-                </h2>
-                <h2>
-                    You know you want to.
-                </h2>
+                <div class="wording_container">
+                    <h2>This is not a real online service!
+                        You know you need something like this in your life to help you realize your deepest dreams.
+                    </h2>
+                    <h2 >
+                        Sign up now to get started.
+                    </h2>
+                    <h2>
+                        You know you want to.
+                    </h2>
+                </div>
                 <form action="" onsubmit="createAccount()">                    
                     <div class="input_container">
                         <div class="column">
@@ -59,7 +61,7 @@
                         </div>
                         <div><span id='message'></span></div>
                     </div>
-                    <input type="submit" value="Create Account" onclick="checkValid()">
+                    <div class="submit"><input type="submit" value="Create Account" onclick="checkValid()"></div>
                 </form>
             </div>
         </div>    

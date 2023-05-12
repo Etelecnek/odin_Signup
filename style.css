@@ -1,15 +1,38 @@
+html {
+    background: url("images.jpeg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
 .background {
-    background-color: aqua;
-    background-image: url("");
+    margin-left: 35%;
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+    background-color: darkred;
 }
 
 .container {
+    margin-top: 25%;
+
+}
+
+.wording_container {
     padding-left: 50px;
-    width: 65%;
-    background-color: aliceblue;
+    padding-right: 50px;
 }
 
 .input_container {
+    padding-left: 50px;
+    padding-right: 50%;
+
     background-color: antiquewhite;
 }
 
@@ -50,9 +73,15 @@ input {
     border: 2px solid #000;
     margin-bottom: 15px;
     padding: 5px;
+    margin-right: 75px;
     border-radius: 5px;
 }
 
 .confirm:invalid {
     border-color: red;
+}
+
+.submit {
+    margin-left: 50px;
+    margin-top: 25px;
 }
