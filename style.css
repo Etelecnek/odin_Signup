@@ -1,5 +1,5 @@
 html {
-    background: url("images.jpeg") no-repeat center center fixed; 
+    background: url("photo-1497211419994-14ae40a3c7a3.avif") no-repeat center center fixed; 
     background-size: cover;
 }
 
@@ -11,12 +11,21 @@ html, body {
     padding: 0px;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    mix-blend-mode: multiply;
+}
+
 .background {
     margin-left: 35%;
     width: 65%;
     height: 100%;
     display: inline-block;
-    background-color: darkred;
+    border-left: solid darkgreen;
 }
 
 .container {
@@ -27,13 +36,14 @@ html, body {
 .wording_container {
     padding-left: 50px;
     padding-right: 50px;
+    color: rgb(234, 238, 228);
 }
 
 .input_container {
     padding-left: 50px;
     padding-right: 50%;
-
-    background-color: antiquewhite;
+    background-color: beige;
+    color: darkgreen;
 }
 
 .row {
@@ -84,4 +94,21 @@ input {
 .submit {
     margin-left: 50px;
     margin-top: 25px;
+ 
+}
+
+#button {
+    border: solid darkgreen;
+    color: rgb(234, 238, 228);
+    background-color: darkgreen;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#button:hover {
+    background-color: rgb(0, 53, 0);
+    border: solid rgb(0, 53, 0);
 }
